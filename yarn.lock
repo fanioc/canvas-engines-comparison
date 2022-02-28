@@ -2,6 +2,142 @@
 # yarn lockfile v1
 
 
+"@antv/adjust@~0.1.1":
+  version "0.1.1"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fadjust/-/adjust-0.1.1.tgz#e263ab0e1a1941a648842fc086cf65a7e3b75e98"
+  integrity sha1-4mOrDhoZQaZIhC/Ahs9lp+O3Xpg=
+  dependencies:
+    "@antv/util" "~1.3.1"
+
+"@antv/f2@^3.8.10":
+  version "3.8.10"
+  resolved "https://npm.corp.kuaishou.com/@antv%2ff2/-/f2-3.8.10.tgz#7c842a50c8e301702a9a9e4619c56c3f742a5cfc"
+  integrity sha512-0nUWdV51g6z2ultDhc5SkvPpzjRCxL5SkW6hxCSpVZAaYDSO+S8sdZaqo1+4UtFBo+PAQbpz4n4dpAmt2xjEyw==
+  dependencies:
+    "@antv/adjust" "~0.1.1"
+    "@antv/scale" "~0.3.3"
+    "@antv/util" "~2.0.6"
+    "@babel/runtime" "^7.7.7"
+    "@types/hammerjs" "^2.0.36"
+    hammerjs "^2.0.8"
+    type-fest "^0.15.1"
+
+"@antv/g-canvas@^1.0.12":
+  version "1.0.12"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-canvas/-/g-canvas-1.0.12.tgz#2d62d3f8efdf81f7867f9ea7625f0c9cf9b78a12"
+  integrity sha512-TpKlp0FH2maxqLPldYJtH99CecW8RN7UyVmw88G8bYqfPdSb7x1vJIhXaIBGv5iVpWE4b1zm3VQcfaV7pY/Cgw==
+  dependencies:
+    "@antv/g-plugin-canvas-picker" "^1.0.10"
+    "@antv/g-plugin-canvas-renderer" "^1.0.10"
+    "@antv/g-plugin-dom-interaction" "^1.0.10"
+    "@antv/g-plugin-html-renderer" "^1.0.11"
+    "@antv/util" "^2.0.13"
+    tslib "^2.3.1"
+
+"@antv/g-math@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-math/-/g-math-1.0.10.tgz#cc7c1591ffff5c960bc6bb4bd4df4507263c4f2c"
+  integrity sha512-O5NgOZ7wSgNS5wJypnZz3vwwiixJcA1zqNeoiUoms+plix9mzuyx4ekp8nIN9lZNhBsZizNIjkReaph1JAT9Qg==
+  dependencies:
+    "@antv/util" "^2.0.13"
+    gl-matrix "^3.1.0"
+    tslib "^2.3.1"
+
+"@antv/g-plugin-canvas-picker@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-plugin-canvas-picker/-/g-plugin-canvas-picker-1.0.10.tgz#c804a5248a8824d707b597d40e83d2c29cbe2047"
+  integrity sha512-h3eF5cIsX/a+f+HmhRRkNsoq2ZbnSioge8D2wulSQ9w3fP2nps/0wo8YKcwwmlTvBiDxTLD+AEt0wSR6VH8cMA==
+  dependencies:
+    tslib "^2.3.1"
+
+"@antv/g-plugin-canvas-renderer@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-plugin-canvas-renderer/-/g-plugin-canvas-renderer-1.0.10.tgz#fac589785a251c1e025af4ed893ce65c2318ae24"
+  integrity sha512-bhkMcUjTjDdlwydtXQEMENl2aniRw8BSJmpSR1Dxg/kWBkw/fsp0aSQm3VD2Q71c1NJ3vak/1IBxaooWRTS7zw==
+  dependencies:
+    "@antv/g-math" "^1.0.10"
+    "@antv/path-util" "^2.0.14"
+    rbush "^3.0.1"
+    tslib "^2.3.1"
+
+"@antv/g-plugin-dom-interaction@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-plugin-dom-interaction/-/g-plugin-dom-interaction-1.0.10.tgz#f6759ce5ab37e5a6f3b253b8fc50922e55a83e73"
+  integrity sha512-JRwYajWUzpaIkiN8K33zhsZwRgsgO6ugUA1fRyKSvNUY2tcQuFBZLViTQSxvTLLkZ7z7sQXNSC/jEp1MCvLxUg==
+  dependencies:
+    tslib "^2.3.1"
+
+"@antv/g-plugin-html-renderer@^1.0.11":
+  version "1.0.11"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg-plugin-html-renderer/-/g-plugin-html-renderer-1.0.11.tgz#7d9cf9133ce96bd841844772a63d16898197b797"
+  integrity sha512-WqlntuOz74Y+Ql3QgrPtXyZy8g11T85b/9sUFHbgyvqVidJJ3SWxFmufpSNd3WQ0ZeqCDXofOdjiDHQ4kxxwgw==
+  dependencies:
+    tslib "^2.3.1"
+
+"@antv/g@^5.0.13":
+  version "5.0.13"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fg/-/g-5.0.13.tgz#2396723cf8b9acf8c8168f1d745395741aa59177"
+  integrity sha512-4Ttg89gRnnDbNMh1lm1P6lQBN5BuezEJajwhNYIxTdwRZeM0pT3iJk83Bhu7RzoJ+OcA+IVgkemnbB3sAMrkTA==
+  dependencies:
+    "@antv/g-math" "^1.0.10"
+    "@antv/path-util" "^2.0.14"
+    "@antv/util" "^2.0.13"
+    "@types/offscreencanvas" "^2019.6.4"
+    d3-color "^1.4.0"
+    eventemitter3 "^4.0.0"
+    gl-matrix "^3.1.0"
+    mana-syringe "^0.2.2"
+    request-animation-frame-polyfill "^1.1.2"
+    tapable "^2.2.1"
+    tslib "^2.3.1"
+
+"@antv/gl-matrix@^2.7.1":
+  version "2.7.1"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fgl-matrix/-/gl-matrix-2.7.1.tgz#acb8e37f7ab3df01345aba4372d7942be42eba14"
+  integrity sha1-rLjjf3qz3wE0WrpDcteUK+QuuhQ=
+
+"@antv/matrix-util@^3.0.4":
+  version "3.0.4"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fmatrix-util/-/matrix-util-3.0.4.tgz#ea13f158aa2fb4ba2fb8d6b6b561ec467ea3ac20"
+  integrity sha1-6hPxWKovtLovuNa2tWHsRn6jrCA=
+  dependencies:
+    "@antv/util" "^2.0.9"
+    gl-matrix "^3.3.0"
+    tslib "^2.0.3"
+
+"@antv/path-util@^2.0.14":
+  version "2.0.15"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fpath-util/-/path-util-2.0.15.tgz#a6f691dfc8b7bce5be7f0aabb5bd614964325631"
+  integrity sha1-pvaR38i3vOW+fwqrtb1hSWQyVjE=
+  dependencies:
+    "@antv/matrix-util" "^3.0.4"
+    "@antv/util" "^2.0.9"
+    tslib "^2.0.3"
+
+"@antv/scale@~0.3.3":
+  version "0.3.14"
+  resolved "https://npm.corp.kuaishou.com/@antv%2fscale/-/scale-0.3.14.tgz#0718f8651368e5c98db5612065132a8c8bbcde48"
+  integrity sha1-Bxj4ZRNo5cmNtWEgZRMqjIu83kg=
+  dependencies:
+    "@antv/util" "~2.0.3"
+    fecha "~4.2.0"
+    tslib "^2.0.0"
+
+"@antv/util@^2.0.13", "@antv/util@^2.0.9", "@antv/util@~2.0.3", "@antv/util@~2.0.6":
+  version "2.0.17"
+  resolved "https://npm.corp.kuaishou.com/@antv%2futil/-/util-2.0.17.tgz#e8ef42aca7892815b229269f3dd10c6b3c7597a9"
+  integrity sha1-6O9CrKeJKBWyKSafPdEMazx1l6k=
+  dependencies:
+    csstype "^3.0.8"
+    tslib "^2.0.3"
+
+"@antv/util@~1.3.1":
+  version "1.3.1"
+  resolved "https://npm.corp.kuaishou.com/@antv%2futil/-/util-1.3.1.tgz#30a34b201ff9126ec0d58c72c8166a9c3e644ccd"
+  integrity sha1-MKNLIB/5Em7A1YxyyBZqnD5kTM0=
+  dependencies:
+    "@antv/gl-matrix" "^2.7.1"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -879,6 +1015,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.7.7":
+  version "7.17.2"
+  resolved "https://npm.corp.kuaishou.com/@babel%2fruntime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
+  integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.15.4", "@babel/template@^7.4.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.15.4.tgz#51898d35dcf3faa670c4ee6afcfd517ee139f194"
@@ -1621,6 +1764,16 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/earcut/-/earcut-2.1.1.tgz#573a0af609f17005c751f6f4ffec49cfe358ea51"
   integrity sha512-w8oigUCDjElRHRRrMvn/spybSMyX8MTkKA5Dv+tS1IE/TgmNZPqUYtvYBXGY8cieSE66gm+szeK+bnbxC2xHTQ==
+
+"@types/hammerjs@^2.0.36":
+  version "2.0.41"
+  resolved "https://npm.corp.kuaishou.com/@types%2fhammerjs/-/hammerjs-2.0.41.tgz#f6ecf57d1b12d2befcce00e928a6a097c22980aa"
+  integrity sha512-ewXv/ceBaJprikMcxCmWU1FKyMAQ2X7a9Gtmzw8fcg2kIePI1crERDM818W+XYrxqdBBOdlf2rm137bU+BltCA==
+
+"@types/offscreencanvas@^2019.6.4":
+  version "2019.6.4"
+  resolved "https://npm.corp.kuaishou.com/@types%2foffscreencanvas/-/offscreencanvas-2019.6.4.tgz#64f6d120b53925028299c744fcdd32d2cd525963"
+  integrity sha1-ZPbRILU5JQKCmcdE/N0y0s1SWWM=
 
 "@types/q@^1.5.1":
   version "1.5.5"
@@ -2723,6 +2876,16 @@ cssstyle@^2.0.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^3.0.8:
+  version "3.0.10"
+  resolved "https://npm.corp.kuaishou.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha1-KtOnvtcPNbllcHwJLl8wsyfCkOU=
+
+d3-color@^1.4.0:
+  version "1.4.1"
+  resolved "https://npm.corp.kuaishou.com/d3-color/-/d3-color-1.4.1.tgz#c52002bf8846ada4424d55d97982fef26eb3bc8a"
+  integrity sha1-xSACv4hGraRCTVXZeYL+8m6zvIo=
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -3122,6 +3285,11 @@ eventemitter3@^3.1.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://npm.corp.kuaishou.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
 events@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
@@ -3241,6 +3409,11 @@ fastparse@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
+
+fecha@~4.2.0:
+  version "4.2.1"
+  resolved "https://npm.corp.kuaishou.com/fecha/-/fecha-4.2.1.tgz#0a83ad8f86ef62a091e22bb5a039cd03d23eecce"
+  integrity sha1-CoOtj4bvYqCR4iu1oDnNA9I+7M4=
 
 file-uri-to-path@1.0.0:
   version "1.0.0"
@@ -3386,6 +3559,11 @@ gl-matrix@^3.1.0:
   resolved "https://registry.yarnpkg.com/gl-matrix/-/gl-matrix-3.3.0.tgz#232eef60b1c8b30a28cbbe75b2caf6c48fd6358b"
   integrity sha512-COb7LDz+SXaHtl/h4LeaFcNdJdAQSDeVqjiIihSXNrkWObZLhDI4hIkZC11Aeqp7bcE72clzB0BnDXr2SmslRA==
 
+gl-matrix@^3.3.0:
+  version "3.4.3"
+  resolved "https://npm.corp.kuaishou.com/gl-matrix/-/gl-matrix-3.4.3.tgz#fc1191e8320009fd4d20e9339595c6041ddc22c9"
+  integrity sha1-/BGR6DIACf1NIOkzlZXGBB3cIsk=
+
 gl-renderer@^0.13.5:
   version "0.13.6"
   resolved "https://registry.yarnpkg.com/gl-renderer/-/gl-renderer-0.13.6.tgz#4976f9adb0859b054ad5f307b903a7fca0d1bef9"
@@ -3440,6 +3618,11 @@ grapheme-breaker@^0.3.2:
   dependencies:
     brfs "^1.2.0"
     unicode-trie "^0.3.1"
+
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://npm.corp.kuaishou.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -3720,6 +3903,11 @@ internal-slot@^1.0.3:
     get-intrinsic "^1.1.0"
     has "^1.0.3"
     side-channel "^1.0.4"
+
+inversify@^5.0.1:
+  version "5.1.1"
+  resolved "https://npm.corp.kuaishou.com/inversify/-/inversify-5.1.1.tgz#6fbd668c591337404e005a1946bfe0d802c08730"
+  integrity sha1-b71mjFkTN0BOAFoZRr/g2ALAhzA=
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -4296,6 +4484,13 @@ make-dir@^3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+mana-syringe@^0.2.2:
+  version "0.2.2"
+  resolved "https://npm.corp.kuaishou.com/mana-syringe/-/mana-syringe-0.2.2.tgz#5bb973a778c9c91277e6f4fa3cfda8df618aa4ba"
+  integrity sha1-W7lzp3jJyRJ35vT6PP2o32GKpLo=
+  dependencies:
+    inversify "^5.0.1"
 
 map-cache@^0.2.2:
   version "0.2.2"
@@ -5608,6 +5803,11 @@ querystring@0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
+quickselect@^2.0.0:
+  version "2.0.0"
+  resolved "https://npm.corp.kuaishou.com/quickselect/-/quickselect-2.0.0.tgz#f19680a486a5eefb581303e023e98faaf25dd018"
+  integrity sha1-8ZaApIal7vtYEwPgI+mPqvJd0Bg=
+
 quote-stream@^1.0.1, quote-stream@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/quote-stream/-/quote-stream-1.0.2.tgz#84963f8c9c26b942e153feeb53aae74652b7e0b2"
@@ -5636,6 +5836,13 @@ range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+rbush@^3.0.1:
+  version "3.0.1"
+  resolved "https://npm.corp.kuaishou.com/rbush/-/rbush-3.0.1.tgz#5fafa8a79b3b9afdfe5008403a720cc1de882ecf"
+  integrity sha1-X6+op5s7mv3+UAhAOnIMwd6ILs8=
+  dependencies:
+    quickselect "^2.0.0"
 
 readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.3, readable-stream@~2.3.6:
   version "2.3.7"
@@ -5748,6 +5955,11 @@ repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
+
+request-animation-frame-polyfill@^1.1.2:
+  version "1.1.2"
+  resolved "https://npm.corp.kuaishou.com/request-animation-frame-polyfill/-/request-animation-frame-polyfill-1.1.2.tgz#b5f98bd2a4baabbd385989acedb1b66c3e5b51c3"
+  integrity sha512-6qqZrrCZT+yLuI4jrGn3qWPiqp/yKcd+thD0YvXubMNFDG9Cj6/KbeieJXT2qo+bEHTuJgRysJuvR7lgfH4mXw==
 
 request-promise-core@1.1.4:
   version "1.1.4"
@@ -6329,6 +6541,11 @@ symbol-tree@^3.2.2:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+tapable@^2.2.1:
+  version "2.2.1"
+  resolved "https://npm.corp.kuaishou.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
+  integrity sha1-GWenPvQGCoLxKrlq+G1S/bdu7KA=
+
 tar@^6.1.0:
   version "6.1.11"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
@@ -6483,6 +6700,11 @@ tslib@2.3.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
+tslib@^2.0.0, tslib@^2.0.3, tslib@^2.3.1:
+  version "2.3.1"
+  resolved "https://npm.corp.kuaishou.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
+
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -6511,6 +6733,11 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+type-fest@^0.15.1:
+  version "0.15.1"
+  resolved "https://npm.corp.kuaishou.com/type-fest/-/type-fest-0.15.1.tgz#d2c4e73d3e4a53cf1a906396dd460a1c5178ca00"
+  integrity sha1-0sTnPT5KU88akGOW3UYKHFF4ygA=
 
 typedarray@^0.0.6:
   version "0.0.6"

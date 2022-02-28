@@ -12,6 +12,9 @@
     "copy": "source .env && rsync -qazP $DEPLOY_FILES $DEPLOY_TARGET"
   },
   "dependencies": {
+    "@antv/f2": "^3.8.10",
+    "@antv/g": "^5.0.13",
+    "@antv/g-canvas": "^1.0.12",
     "@createjs/easeljs": "^2.0.0-beta.4",
     "@mesh.js/core": "^1.1.23",
     "@svgdotjs/svg.js": "^3.1.1",
